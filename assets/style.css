@@ -1,7 +1,31 @@
+.panel panel-primary{
+	width: 650px;
+}
 
 p{
 color:	#777777;
+
+
 }
+
+h1 {
+	background:#4aaaa5;
+	width: 960px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+footer {
+	width: 100%;
+	background: grey;
+	color: white;
+	text-align: center;
+	height: 50px
+	border-top: 50px, 0, 0, 0;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+
+}
+
 
 /* purely examples p, h1, h4 {
 	font-family: 'Roboto Slab', serif;
@@ -11,4 +35,14 @@ color:	#777777;
 	color: black;
 	font-size: 24px;
 	font-family: 'Roboto Slab', serif;
+} */
+
+Body {
+	background-image: url("background.jpg");
+	
+}
+.gucci {
+	width: 250px;
+float: left;
+margin: 10px;
 }
