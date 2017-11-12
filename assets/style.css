@@ -1,32 +1,85 @@
-.panel panel-primary{
-	width: 650px;
-}
 
-p{
+p
+{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	
 color:	#777777;
-
-
 }
-
+.TextPanelHeaders {
+	color: teal;
+	font-size: 20pt;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin: 10px;
+	
+}
 h1 {
 	background:#4aaaa5;
-	width: 960px;
+width: 300px;
+text-align: center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-}
+	margin-bottom: 10px;
 
+}
+/* h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float: right;
+	position: absolute;
+	
+}
+*/
 footer {
 	width: 100%;
 	background: grey;
 	color: white;
 	text-align: center;
-	height: 50px
-	border-top: 50px, 0, 0, 0;
+	position: absolute;
+	bottom:0;
 	border-top-style: solid;
 	border-top-color: #4aaaa5;
+	
+}
+.row {
+	
+	width: 960px;
+	left: 15%;
 
+	
+	
+}
+.PrimaryPanel {
+	background: white; 
+	height: 500px;
+	width: 650px;
+	position: relative;
+	left: 15%;
+	top: 0px;
+	border: 1px grey solid;
+	
+	
+}
+.PanelContent {
+	border-top: 5px grey solid;
+	margin: 10px;
+	text-align: center;
+	
+}
+.ConnectPanel {
+
+	background-color: white;
+	width: 270px;
+	height:350px;
+	right:-350px ;
+	top:0;
+	position: absolute;
+	border: 1px grey solid;
+	text-align: center;
 }
 
+/* https://www.w3schools.com/css/css_positioning.asp *
+Use this and fix the positioning/
+	
 
+}
 /* purely examples p, h1, h4 {
 	font-family: 'Roboto Slab', serif;
 }
@@ -38,7 +91,7 @@ footer {
 } */
 
 Body {
-	background-image: url("background.jpg");
+	background-image: url("background2.jpg");
 	
 }
 .gucci {
