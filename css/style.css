@@ -30,7 +30,8 @@ h1 {
 	position: fixed;
 	left: 107px;
 	padding: 20px 0px 20px 0px; 
-	font-weight: 20;
+	font-size: 32px;
+	
 /* I had issues getting this to line up perfectly There may be a margin or padding somewhere so that all the elemetns are not using the same coordinates for their origin.
 */
 }
@@ -86,15 +87,26 @@ footer {
 	border-top: 10px solid #4aaaa5;
 }
 form {
-	margin-top: 0px;
+	margin-top: 10px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
+}
+input{
+	margin:10px 10px 10px 0;
 }
 input[placeholder] {
 	text-indent: 10px;
 }
  input[type='text']{
 	 width: 590px;
+}
+input[type="submit"]{
+	background: teal;
+	color: white;
+	border: 0px;
+	height:40px;
+	width: 100px;
+	margin:-5px 0 0 0;
 }
 textarea{
 	width: 590px;
@@ -125,6 +137,8 @@ border: 1px #dddddd solid;
 {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color:	#777777;
+	padding: 10px 10px 0 10px;
+	text-align: left;
 }
 .ContactForm{
 	text-align: left;
@@ -141,6 +155,7 @@ border: 1px #dddddd solid;
 	border-top: 2px grey solid;
 	margin: 28px;
 	text-align: center;
+	
 }
 .ConnectContent {
 	border-top: 2px grey solid;
@@ -182,5 +197,3 @@ margin: 10px;
 	float: right;
 	margin: 30px 0px 10px 0px;	
 }
-	
-	
