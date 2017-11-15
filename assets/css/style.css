@@ -21,15 +21,16 @@ Body {
 h1 {
 	background:#4aaaa5;
 	width: 300px;
-	height:75px;
+	height:35px;
 	text-align: center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: white;
 	z-index: 2;
-	top: -30px;
+	top: 0px;
 	position: fixed;
 	left: 107px;
-	padding: 5px 0px 5px 0px; 
+	padding: 20px 0px 20px 0px; 
+	font-weight: 20;
 /* I had issues getting this to line up perfectly There may be a margin or padding somewhere so that all the elemetns are not using the same coordinates for their origin.
 */
 }
