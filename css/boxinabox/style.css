@@ -4,13 +4,14 @@ footer {
     color: white;
     text-align: center;
     position: absolute;
-    
+    bottom: 0;
+    left: 0;
     height: 55px;
     border-top: 10px solid #4aaaa5;
     z-index: 100000000000;
 }
 html, body {
-    height: 95%;
+    height: 100%;
     margin: 0;
   }
   .wrapper {
@@ -18,11 +19,11 @@ html, body {
   
     /* Equal to height of footer */
     /* But also accounting for potential margin-bottom of last child */
-    margin-bottom: 70px;
+    margin-bottom: -55px;
   }
   .footer,
   .push {
-    height: 70px;
+    height: 55px;
   }
 
 Body {
@@ -171,7 +172,7 @@ textarea {
     border-top: 2px grey solid;
     margin: 0px 28px 0 28px;
 }
- .FooterPadding {
+.FooterPadding {
     padding: 20px;
 }
 .BorderBuddy {
