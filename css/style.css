@@ -213,7 +213,8 @@ textarea {
 }
 .centered {
     padding: 22.5px;
+    color: white;
 }
-.WhyDoesntTheStrongTagWork {
+.centered , .WhyDoesntTheStrongTagWork {
     font-weight: bold;
 }
